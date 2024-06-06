@@ -11,6 +11,7 @@
     --purple: #a729f5;
     --primary-text-color: #313e51;
     --secondary-text-color: #626c7f;
+    --button-bg: #fff;
     --shadow: 0px 16px 40px 0px rgba(143, 160, 193, 0.14);
     --bg-html: #fff1e9;
     --bg-css: #e0fdef;
@@ -101,6 +102,20 @@ main {
     padding: 12px;
     border-radius: 12px;
     box-shadow: var(--shadow);
+    font-size: 18px;
+    font-weight: 500;
+    color: var(--primary-text-color);
+}
+
+.assuntos button div {
+    width: 40px;
+    height: 40px;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.assuntos button img {
+    width: 100%;
 }
 
 .botao_html div {
